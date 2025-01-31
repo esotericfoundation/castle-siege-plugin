@@ -8,7 +8,7 @@ plugins {
     id("io.freefair.lombok") version "8.6"
 }
 
-group = "esoteric.foundation"
+group = "foundation.esoteric"
 version = "1.0"
 description = "A Minecraft Java plugin that adds the Castle Siege minigame."
 
