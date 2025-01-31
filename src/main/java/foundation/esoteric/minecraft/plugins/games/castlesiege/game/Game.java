@@ -1,14 +1,12 @@
 package foundation.esoteric.minecraft.plugins.games.castlesiege.game;
 
 import foundation.esoteric.minecraft.plugins.games.castlesiege.game.classes.*;
-import foundation.esoteric.minecraft.plugins.minigames.castlesiege.game.classes.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import foundation.esoteric.minecraft.plugins.games.castlesiege.CastleSiegePlugin;
-import net.slqmy.castle_siege_plugin.game.classes.*;
 import foundation.esoteric.minecraft.plugins.games.castlesiege.game.classes.abs.GameClass;
 import foundation.esoteric.minecraft.plugins.games.castlesiege.game.data.arena.ArenaConfig;
 import foundation.esoteric.minecraft.plugins.games.castlesiege.game.data.player.TeamPlayer;
