@@ -37,7 +37,7 @@ public abstract class BaseGUI implements Listener {
     protected Player player;
 
     public BaseGUI(Component title, int rows) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.pdcManager = plugin.getPdcManager();
 
         this.gui = Bukkit.createInventory(null, rows * 9, title);

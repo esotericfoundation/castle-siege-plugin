@@ -17,7 +17,7 @@ public class StartGameCommand implements CommandExecutor {
     private final CastleSiegePlugin plugin;
 
     public StartGameCommand() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
     }
 
     @Override

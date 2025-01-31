@@ -1,6 +1,7 @@
 package foundation.esoteric.minecraft.plugins.games.castlesiege.game.classes;
 
 import foundation.esoteric.minecraft.plugins.games.castlesiege.game.Game;
+import foundation.esoteric.minecraft.plugins.games.castlesiege.game.classes.abs.CustomisableGameClass;
 import foundation.esoteric.minecraft.plugins.games.castlesiege.items.ItemIdentifier;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

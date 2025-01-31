@@ -16,7 +16,7 @@ public class EndGameCommand implements CommandExecutor {
     private final CastleSiegePlugin plugin;
 
     public EndGameCommand() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
     }
 
     @Override
