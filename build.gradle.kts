@@ -8,7 +8,7 @@ plugins {
     id("io.freefair.lombok") version "8.6"
 }
 
-group = "net.slqmy"
+group = "esoteric.foundation"
 version = "1.0"
 description = "A Minecraft Java plugin that adds the Castle Siege minigame."
 
@@ -35,10 +35,10 @@ tasks {
 }
 
 bukkitPluginYaml {
-    main = "net.slqmy.castle_siege_plugin.CastleSiegePlugin"
+    main = "$group.minecraft.plugins.games.castlesiege.CastleSiegePlugin"
     prefix = "Castle Siege"
     load = BukkitPluginYaml.PluginLoadOrder.STARTUP
-    authors.addAll("rolyPolyVole", "Slqmy")
+    authors.addAll("rolyPolyVole", "Esoteric Enderman")
     apiVersion = "1.20.5"
     commands.register("start")
     commands.register("end")
