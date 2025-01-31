@@ -40,7 +40,7 @@ public final class MapLoader {
     private final Map<Integer, BukkitTask> runnables;
 
     public MapLoader(Game game) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
 
         this.game = game;
         this.arenaConfig = game.getArenaConfig();

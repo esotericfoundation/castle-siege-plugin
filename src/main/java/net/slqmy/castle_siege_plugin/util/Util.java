@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public final class Util {
-    private static final CastleSiegePlugin plugin = CastleSiegePlugin.getInstance();
+    private static final CastleSiegePlugin plugin = CastleSiegePlugin.instance;
     private static final MiniMessage MM = MiniMessage.miniMessage();
 
     private Util() {}

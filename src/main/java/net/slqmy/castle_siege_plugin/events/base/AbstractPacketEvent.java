@@ -15,7 +15,7 @@ public abstract class AbstractPacketEvent<P extends Packet<? extends ServerGameP
     protected int priority;
 
     public AbstractPacketEvent() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
     }
 
     public void register() {

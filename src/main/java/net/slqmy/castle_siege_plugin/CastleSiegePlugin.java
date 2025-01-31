@@ -24,12 +24,12 @@ import java.util.UUID;
 
 @Getter
 public final class CastleSiegePlugin extends JavaPlugin implements Listener {
+    public static CastleSiegePlugin instance;
+
     private ArenaManager arenaManager;
     private GameManager gameManager;
     private PersistentDataManager pdcManager;
     private PacketInterceptor packetInterceptor;
-
-    private ArenaManager arenaManager;
 
     public CastleSiegePlugin() {
         CastleSiegePlugin.instance = this;

@@ -44,7 +44,7 @@ public class ItemStackBuilder {
     protected Boolean customBooleanData;
 
     public ItemStackBuilder() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.pdcManager = plugin.getPdcManager();
 
         this.material = Material.AIR;
@@ -53,7 +53,7 @@ public class ItemStackBuilder {
     }
 
     public ItemStackBuilder(Material material) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.pdcManager = plugin.getPdcManager();
 
         this.material = material;

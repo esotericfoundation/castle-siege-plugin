@@ -39,7 +39,7 @@ public final class NPC implements ITickable {
     private Runnable onTick;
 
     public NPC(ServerPlayer npc, NPCData data) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.handle = npc;
         this.data = data;
     }

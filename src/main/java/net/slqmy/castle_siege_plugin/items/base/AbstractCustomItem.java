@@ -23,7 +23,7 @@ public abstract class AbstractCustomItem implements Listener {
     protected final ItemStack itemStack;
 
     public AbstractCustomItem(ItemStack itemStack) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.pdcManager = plugin.getPdcManager();
 
         this.itemStack = itemStack;

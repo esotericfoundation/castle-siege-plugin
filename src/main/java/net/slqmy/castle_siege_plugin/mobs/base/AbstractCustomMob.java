@@ -21,7 +21,7 @@ public abstract class AbstractCustomMob implements INMSMob {
     protected boolean readyForSpawn;
 
     public AbstractCustomMob(MapRegion region, Game game) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.pdcManager = plugin.getPdcManager();
 
         this.game = game;

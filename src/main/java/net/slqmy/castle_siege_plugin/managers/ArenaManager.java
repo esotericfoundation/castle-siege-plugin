@@ -38,7 +38,7 @@ public final class ArenaManager {
     private final Map<UUID, ArenaConfig> arenas;
 
     public ArenaManager() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.arenas = new HashMap<>();
     }
 

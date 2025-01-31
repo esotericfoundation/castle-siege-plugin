@@ -41,7 +41,7 @@ public final class Team {
     public Team(TeamBaseData baseData, Game game) {
         this.id = baseData.id();
 
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.game = game;
 
         this.baseData = baseData;

@@ -50,7 +50,7 @@ public final class PacketInterceptor {
         private final List<Class<? extends Packet<?>>> ignoredPackets;
 
         public PlayerChannelHandler(ServerPlayer player) {
-            this.plugin = CastleSiegePlugin.getInstance();
+            this.plugin = CastleSiegePlugin.instance;
             this.player = player;
 
             this.ignoredPackets = new ArrayList<>();
@@ -81,8 +81,3 @@ public final class PacketInterceptor {
         }
     }
 }
-
-
-
-
-

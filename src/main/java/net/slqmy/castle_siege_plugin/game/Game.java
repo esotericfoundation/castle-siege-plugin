@@ -69,7 +69,7 @@ public final class Game {
     private static final List<Player> allPlayers = new ArrayList<>();
 
     public Game(ArenaConfig arenaConfig, List<? extends Player> players) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.arenaConfig = arenaConfig;
 
         this.players = players;

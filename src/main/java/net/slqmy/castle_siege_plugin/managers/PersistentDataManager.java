@@ -108,7 +108,7 @@ public final class PersistentDataManager {
 
             Items(String name) {
                 this.name = name;
-                this.key = new NamespacedKey(CastleSiegePlugin.getInstance(), name);
+                this.key = new NamespacedKey(CastleSiegePlugin.instance, name);
             }
 
             @Override
@@ -133,7 +133,7 @@ public final class PersistentDataManager {
 
             ShopItems(String name) {
                 this.name = name;
-                this.key = new NamespacedKey(CastleSiegePlugin.getInstance(), name);
+                this.key = new NamespacedKey(CastleSiegePlugin.instance, name);
             }
 
             @Override
@@ -155,7 +155,7 @@ public final class PersistentDataManager {
 
             Items$Bows(String name) {
                 this.name = name;
-                this.key = new NamespacedKey(CastleSiegePlugin.getInstance(), name);
+                this.key = new NamespacedKey(CastleSiegePlugin.instance, name);
             }
 
             @Override
@@ -177,7 +177,7 @@ public final class PersistentDataManager {
 
             Mobs(String name) {
                 this.name = name;
-                this.key = new NamespacedKey(CastleSiegePlugin.getInstance(), name);
+                this.key = new NamespacedKey(CastleSiegePlugin.instance, name);
             }
 
             @Override

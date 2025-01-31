@@ -20,7 +20,7 @@ final class EntitySkeleton extends Skeleton {
 
     EntitySkeleton(Level world, MapRegion region, String identifier) {
         super(EntityType.SKELETON, world);
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
 
         this.homeRegion = region;
         this.type = identifier;

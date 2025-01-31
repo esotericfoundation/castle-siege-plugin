@@ -33,7 +33,7 @@ public final class GameEventHandler implements Listener {
     private final World gameWorld;
 
     public GameEventHandler(Game game) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
 
         this.game = game;
         this.arenaConfig = game.getArenaConfig();

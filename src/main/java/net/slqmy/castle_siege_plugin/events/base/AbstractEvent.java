@@ -7,7 +7,7 @@ public class AbstractEvent implements Listener {
     protected final CastleSiegePlugin plugin;
 
     public AbstractEvent() {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
     }
 
     public void register() {

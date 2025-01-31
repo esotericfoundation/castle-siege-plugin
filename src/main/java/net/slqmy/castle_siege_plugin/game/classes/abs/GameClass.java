@@ -9,7 +9,7 @@ public abstract class GameClass {
     protected final Game game;
 
     public GameClass(Game game) {
-        this.plugin = CastleSiegePlugin.getInstance();
+        this.plugin = CastleSiegePlugin.instance;
         this.game = game;
     }
 
