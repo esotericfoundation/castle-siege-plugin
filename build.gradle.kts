@@ -32,10 +32,6 @@ tasks {
     javadoc {
         options.encoding = Charsets.UTF_8.name() // We want UTF-8 for everything
     }
-
-    jar {
-        destinationDirectory.set(file("../../CastleSiegeTest/plugins"))
-    }
 }
 
 bukkitPluginYaml {
