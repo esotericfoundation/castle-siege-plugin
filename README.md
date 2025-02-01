@@ -1,5 +1,7 @@
 # Castle Siege Plugin
 
+[![Project Status: Abandoned](./assets/images/badges/status.svg)](./)
+
 A plugin that adds the Castle Siege minigame.
 
 ## Topics
