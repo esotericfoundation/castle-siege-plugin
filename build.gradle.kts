@@ -36,6 +36,7 @@ tasks {
 
 bukkitPluginYaml {
     main = "$group.minecraft.plugins.games.castlesiege.CastleSiegePlugin"
+    name = "CastleSiege"
     prefix = "Castle Siege"
     load = BukkitPluginYaml.PluginLoadOrder.STARTUP
     authors.addAll("rolyPolyVole", "Esoteric Enderman")
