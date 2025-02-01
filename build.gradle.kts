@@ -18,9 +18,21 @@ java {
 
 paperweight.reobfArtifactConfiguration = io.papermc.paperweight.userdev.ReobfArtifactConfiguration.MOJANG_PRODUCTION
 
+bukkitPluginYaml {
+    main = "$group.minecraft.plugins.games.castlesiege.CastleSiegePlugin"
+    name = "CastleSiege"
+    prefix = "Castle Siege"
+    load = BukkitPluginYaml.PluginLoadOrder.STARTUP
+    authors.addAll("rolyPolyVole", "Esoteric Enderman")
+    apiVersion = "1.20.5"
+    commands.register("start")
+    commands.register("end")
+    commands.register("debug")
+}
+
 dependencies {
     implementation("org.projectlombok:lombok:1.18.30")
-    paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("${bukkitPluginYaml.apiVersion.get()}-R0.1-SNAPSHOT")
 }
 
 tasks {
@@ -32,16 +44,4 @@ tasks {
     javadoc {
         options.encoding = Charsets.UTF_8.name() // We want UTF-8 for everything
     }
-}
-
-bukkitPluginYaml {
-    main = "$group.minecraft.plugins.games.castlesiege.CastleSiegePlugin"
-    name = "CastleSiege"
-    prefix = "Castle Siege"
-    load = BukkitPluginYaml.PluginLoadOrder.STARTUP
-    authors.addAll("rolyPolyVole", "Esoteric Enderman")
-    apiVersion = "1.20.5"
-    commands.register("start")
-    commands.register("end")
-    commands.register("debug")
 }
