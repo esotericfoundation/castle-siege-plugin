@@ -1,3 +1,6 @@
 [submodule "run/world"]
 	path = run/world
 	url = git@github.com:slimesmp/castle-siege-map.git
+[submodule "castle-siege-map"]
+	path = castle-siege-map
+	url = git@github.com:slimesmp/castle-siege-map.git
